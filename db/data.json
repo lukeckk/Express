@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "name": "Python",
+    "description": "A versatile and easy-to-learn programming language known for its simplicity and a wide range of applications, including web development, data analysis, and artificial intelligence."
+  },
+  {
+    "id": 2,
+    "name": "JavaScript",
+    "description": "A powerful and flexible programming language primarily used for interactive and dynamic web development, with applications in both front-end and back-end development."
+  },
+  {
+    "id": 3,
+    "name": "Java",
+    "description": "A robust, platform-independent programming language widely used for building enterprise-level applications, Android apps, and server-side development."
+  },
+  {
+    "id": 4,
+    "name": "C++",
+    "description": "An extension of the C programming language, C++ is widely used for system programming, game development, and performance-critical applications."
+  },
+  {
+    "id": 5,
+    "name": "Ruby",
+    "description": "A dynamic and open-source programming language known for its simplicity and productivity, often used in web development with the Ruby on Rails framework."
+  },
+  {
+    "id": 6,
+    "name": "PHP",
+    "description": "A popular scripting language for server-side web development, widely used to build dynamic web pages and applications."
+  },
+  {
+    "id": 7,
+    "name": "Swift",
+    "description": "A modern programming language developed by Apple for building iOS, macOS, watchOS, and tvOS applications with safety and performance in mind."
+  },
+  {
+    "id": 8,
+    "name": "C#",
+    "description": "A modern and versatile programming language developed by Microsoft, commonly used for game development, desktop applications, and enterprise software."
+  },
+  {
+    "id": 9,
+    "name": "Go",
+    "description": "An open-source programming language designed by Google, known for its simplicity, concurrency features, and efficiency in building scalable applications."
+  },
+  {
+    "id": 10,
+    "name": "Kotlin",
+    "description": "A statically typed programming language that is fully interoperable with Java, widely used for Android app development and backend server development."
+  }
+]
