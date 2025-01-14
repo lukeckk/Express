@@ -3,6 +3,7 @@ import getData from "../db/dataRepo.js";
 const hello = (req, res) => {
   res.status(200);
   res.send('Hello you')
+  // next();
 }
 
 
