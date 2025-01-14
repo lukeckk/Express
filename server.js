@@ -25,7 +25,8 @@ const middleware3 = (req, res) => {
   res.send(`${req.url} not found on server!`)
 }
 
-
+// use third-party middleware
+app.use(morgan('short'));
 
 // use build-in middleware
 app.use(express.static('public'))
