@@ -18,5 +18,7 @@ router.get('/pages', controller.pageLoader)
 
 router.get('/name', controller.name)
 
+router.get('/user/:userID', controller.user)
+
 
 export default router;

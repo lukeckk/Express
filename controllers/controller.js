@@ -28,6 +28,11 @@ const name = (req, res) => {
   }
 }
 
+const user = (req, res) => {
+  const userID = req.params.userID;
+  res.send(`Welcome user ${userID}`)
+}
+
 
 const hello = (req, res) => {
   res.status(200);
@@ -60,4 +65,4 @@ const printData = (req, res) => {
 }
 
 
-export default { pageLoader, hello, addMessage, course, unknown, printData, name } 
+export default { pageLoader, hello, addMessage, course, unknown, printData, name, user } 
