@@ -1,5 +1,31 @@
 import getData from "../db/dataRepo.js";
 
+const book = (req, res) => {
+  const thing = req.params.thing;
+  console.log(thing);
+  res.status(200).send(`${thing}${thing}${thing}`)
+}
+
+const getPoints = (req, res) => {
+  const { x, y, z } = req.params;
+  res.status(200).send(`${x}${y}${z}`)
+}
+
+const bookName = (req, res) => {
+  res.status(200).send('Book name')
+
+}
+
+const bookSummary = (req, res) => {
+  res.status(200).send('Book summary')
+
+}
+
+const bookPages = (req, res) => {
+  res.status(200).send('Book page')
+
+}
+
 const pageLoader = (req, res) => {
   const page = req.query.page;
   // http://localhost:3300/home/pages?page=page1
@@ -65,4 +91,4 @@ const printData = (req, res) => {
 }
 
 
-export default { pageLoader, hello, addMessage, course, unknown, printData, name, user } 
+export default { pageLoader, hello, addMessage, course, unknown, printData, name, user, bookName, bookSummary, bookPages, book, getPoints } 

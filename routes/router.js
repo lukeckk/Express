@@ -20,5 +20,12 @@ router.get('/name', controller.name)
 
 router.get('/user/:userID', controller.user)
 
+// router.get('/book/name', controller.bookName)
+// router.get('/book/summary', controller.bookSummary)
+// router.get('/book/pages', controller.bookPages)
+router.get('/book/:thing', controller.book)
+router.get('/book/:x/:y/:z', controller.getPoints)
+
+
 
 export default router;
